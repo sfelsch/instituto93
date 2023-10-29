@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <title>OneSchool &mdash; Website by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+  <div class="site-wrap">
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
+        </div>
+      </div>
+      <div class="site-mobile-menu-body"></div>
+    </div>
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+      <div class="container-fluid">
+        <div class="d-flex align-items-center">
+          <div class="site-logo mr-auto w-25"><a href="index.html">I.S.F.T. N°93</a></div>
+          <div class="mx-auto text-center">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu js-clone-nav mx-auto d-none d-lg-block  m-0 p-0">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="marketing.html#courses-section" class="nav-link">Carreras</a></li>
+
+              </ul>
+            </nav>
+          </div>
+          <div class="ml-auto w-25">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+              <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block m-0 p-0">
+                <li class="cta"><a href="course-single.html#contact-section"
+                    class="nav-link"><span>Contactenos</span></a></li>
+              </ul>
+            </nav>
+            <a href="course-single.html#"
+              class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right"><span
+                class="icon-menu h3"></span></a>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="intro-section single-cover" id="home-section">
+      <div class="slide-1 " style="background-image: url('images/programacion.jpg');"
+        data-stellar-background-ratio="0.5">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-12">
+              <div class="row justify-content-center align-items-center text-center">
+                <div class="col-lg-6">
+                  <h1 data-aos="fade-up" data-aos-delay="0">Inscripción a carrera</h1>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section">
+      <div class="container">
+        <div class="row" style="justify-content: center;">
+          <div class="col-lg-10 mb-5">
+            <div class="mb-5">
+              <form>
+                <h3>Carrera a la que se inscribe</h3>
+                <div class="form-group">
+                    <label for="CarreraId">Carrera:</label>
+                    <select class="form-control" id="CarreraId" required>
+                        <option value="">Seleccione una carrera</option>
+                        <!-- Opciones de carreras aquí -->
+                    </select>
+                </div>
+                
+                <h3>DATOS DEL ALUMNO</h3>
+<div class="form-group">
+    <label for="Apellidos">Apellidos:</label>
+    <input type="text" class="form-control" id="Apellidos" required>
+</div>
+<div class="form-group">
+    <label for="Nombres">Nombres:</label>
+    <input type="text" class="form-control" id="Nombres" required>
+</div>
+<div class="form-group">
+    <label for="TipoDocumentoId">Tipo de Documento:</label>
+    <select class="form-control" id="TipoDocumentoId" required>
+        <option value="">Seleccione un tipo de documento</option>
+
+    </select>
+</div>
+<div class="form-group">
+    <label for="NumeroDocumento">Número de Documento:</label>
+    <input type="number" class="form-control" id="NumeroDocumento" required>
+</div>
+<div class="form-group">
+    <label for="EstadoCivilId">Estado Civil:</label>
+    <select class="form-control" id="EstadoCivilId">
+        <option value="">Seleccione estado civil</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="Sexo">Sexo:</label>
+    <input type="text" class="form-control" id="Sexo">
+</div>
+<div class="form-group">
+    <label for="FechaNacimiento">Fecha de Nacimiento:</label>
+    <input type="date" class="form-control" id="FechaNacimiento" required>
+</div>
+<div class="form-group">
+    <label for="LocalidadNacimiento">Localidad de Nacimiento:</label>
+    <select class="form-control" id="LocalidadNacimiento">
+        <option value="">Seleccione la localidad de nacimiento</option>
+
+    </select>
+</div>
+<div class="form-group">
+    <label for="PaisNacionalidadId">País de Nacionalidad:</label>
+    <select class="form-control" id="PaisNacionalidadId">
+        <option value="">Seleccione el país de nacionalidad</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="Calle">Calle:</label>
+    <input type="text" class="form-control" id="Calle">
+</div>
+<div class="form-group">
+    <label for="Altura">Altura:</label>
+    <input type="number" class="form-control" id="Altura">
+</div>
+<div class="form-group">
+    <label for="Piso">Piso:</label>
+    <input type="text" class="form-control" id="Piso">
+</div>
+<div class="form-group">
+    <label for="Departamento">Departamento:</label>
+    <input type="text" class="form-control" id="Departamento">
+</div>
+<div class="form-group">
+    <label for="ProvinciaId">Provincia:</label>
+    <select class="form-control" id="ProvinciaId">
+        <option value="">Seleccione la provincia</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="Distrito">Distrito:</label>
+    <input type="text" class="form-control" id="Distrito">
+</div>
+<div class="form-group">
+    <label for="LocalidadId">Localidad:</label>
+    <select class="form-control" id="LocalidadId">
+        <option value="">Seleccione la localidad</option>
+    </select>
+</div>
+<div class="form-group">
+    <label for="CodigoPostal">Código Postal:</label>
+    <input type="text" class="form-control" id="CodigoPostal">
+</div>
+<div class="form-group">
+    <label for="Telefono">Teléfono:</label>
+    <input type="text" class="form-control" id="Telefono">
+</div>
+<div class="form-group">
+    <label for="Celular">Celular:</label>
+    <input type="text" class="form-control" id="Celular">
+</div>
+<div class="form-group">
+    <label for="Email">Email:</label>
+    <input type="text" class="form-control" id="Email">
+</div>
+    
+<h3>FORMACIÓN</h3>
+<div class="form-group">
+    <label>¿Tiene Título Secundario?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="TituloSecundario" id="TituloSecundarioSi" value="SI" required>
+        <label class="form-check-label" for="TituloSecundarioSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="TituloSecundario" id="TituloSecundarioNo" value="NO" required>
+        <label class="form-check-label" for="TituloSecundarioNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="MateriasAdeuda">Materias Adeuda:</label>
+    <input type="number" class="form-control" id="MateriasAdeuda">
+</div>
+<div class="form-group">
+    <label for="DescripcionMaterias">Descripción de Materias Adeudadas:</label>
+    <input type="text" class="form-control" id="DescripcionMaterias">
+</div>
+<div class="form-group">
+    <label for="Titulo">Título:</label>
+    <input type="text" class="form-control" id="Titulo">
+</div>
+<div class="form-group">
+    <label for="Orientacion">Orientación:</label>
+    <input type="text" class="form-control" id="Orientacion">
+</div>
+<div class="form-group">
+    <label for="OtorgadoPor">Otorgado por:</label>
+    <input type="text" class="form-control" id="OtorgadoPor">
+</div>
+<div class="form-group">
+    <label for="AnioEgreso">Año de Egreso:</label>
+    <input type="number" class="form-control" id="AnioEgreso">
+</div>
+<div class="form-group">
+    <label for="Promedio">Promedio:</label>
+    <input type="number" class="form-control" id="Promedio">
+</div>
+<div class="form-group">
+    <label>¿Tiene Título en Trámite?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="TituloTramite" id="TituloTramiteSi" value="SI">
+        <label class="form-check-label" for="TituloTramiteSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="TituloTramite" id="TituloTramiteNo" value="NO">
+        <label class="form-check-label" for="TituloTramiteNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+  <label for="MayorTitulo">Máximo Título Obtenido:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="Terciario" name="MayorTitulo" value="Terciario">
+      <label class="form-check-label" for="Terciario">Terciario</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="Universitario" name="MayorTitulo" value="Universitario">
+      <label class="form-check-label" for="Universitario">Universitario</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="Posgrado" name="MayorTitulo" value="Posgrado">
+      <label class="form-check-label" for="Posgrado">Posgrado</label>
+  </div>
+</div>
+
+<div class="form-group">
+    <label for="OtroTitulo">Otro Título:</label>
+    <input type="text" class="form-control" id="OtroTitulo">
+</div>
+<div class="form-group">
+    <label for="MayorOtorgadoPor">Otorgado por:</label>
+    <input type="text" class="form-control" id="MayorOtorgadoPor">
+</div>
+<div class="form-group">
+    <label for="MayorPromedio">Promedio:</label>
+    <input type="number" class="form-control" id="MayorPromedio">
+</div>
+<div class="form-group">
+  <label>Maximo Nivel Educativo del Padre:</label>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="NuncaAsistioPadre" name="MaximoNivelEducativoPadre" value="Nunca asistió">
+      <label class="form-check-label" for="NuncaAsistioPadre">Nunca asistió</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="PrimariaIncompletaPadre" name="MaximoNivelEducativoPadre" value="Primaria incompleta">
+      <label class="form-check-label" for="PrimariaIncompletaPadre">Primaria incompleta</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="PrimariaCompletaPadre" name="MaximoNivelEducativoPadre" value="Primaria completa">
+      <label class="form-check-label" for="PrimariaCompletaPadre">Primaria completa</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="SecundariaIncompletaPadre" name="MaximoNivelEducativoPadre" value="Secundaria incompleta">
+      <label class="form-check-label" for="SecundariaIncompletaPadre">Secundaria incompleta</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="SecundariaCompletaPadre" name="MaximoNivelEducativoPadre" value="Secundaria completa">
+      <label class="form-check-label" for="SecundariaCompletaPadre">Secundaria completa</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="TerciarioIncompletoPadre" name="MaximoNivelEducativoPadre" value="Terciario incompleto">
+      <label class="form-check-label" for="TerciarioIncompletoPadre">Terciario incompleto</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="TerciarioCompletoPadre" name="MaximoNivelEducativoPadre" value="Terciario completo">
+      <label class="form-check-label" for="TerciarioCompletoPadre">Terciario completo</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="UniversitarioIncompletoPadre" name="MaximoNivelEducativoPadre" value="Universitario incompleto">
+      <label class="form-check-label" for="UniversitarioIncompletoPadre">Universitario incompleto</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="UniversitarioCompletoPadre" name="MaximoNivelEducativoPadre" value="Universitario completo">
+      <label class="form-check-label" for="UniversitarioCompletoPadre">Universitario completo</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="NoSabeNoContestaPadre" name="MaximoNivelEducativoPadre" value="No Sabe/No Contesta">
+      <label class="form-check-label" for="NoSabeNoContestaPadre">No Sabe/No Contesta</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Maximo Nivel Educativo de la Madre:</label>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="NuncaAsistioMadre" name="MaximoNivelEducativoMadre" value="Nunca asistió">
+      <label class="form-check-label" for="NuncaAsistioMadre">Nunca asistió</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="PrimariaIncompletaMadre" name="MaximoNivelEducativoMadre" value="Primaria incompleta">
+      <label class="form-check-label" for="PrimariaIncompletaMadre">Primaria incompleta</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="PrimariaCompletaMadre" name="MaximoNivelEducativoMadre" value="Primaria completa">
+      <label class="form-check-label" for="PrimariaCompletaMadre">Primaria completa</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="SecundariaIncompletaMadre" name="MaximoNivelEducativoMadre" value="Secundaria incompleta">
+      <label class="form-check-label" for="SecundariaIncompletaMadre">Secundaria incompleta</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="SecundariaCompletaMadre" name="MaximoNivelEducativoMadre" value="Secundaria completa">
+      <label class="form-check-label" for="SecundariaCompletaMadre">Secundaria completa</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="TerciarioIncompletoMadre" name="MaximoNivelEducativoMadre" value="Terciario incompleto">
+      <label class="form-check-label" for="TerciarioIncompletoMadre">Terciario incompleto</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="TerciarioCompletoMadre" name="MaximoNivelEducativoMadre" value="Terciario completo">
+      <label class="form-check-label" for="TerciarioCompletoMadre">Terciario completo</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="UniversitarioIncompletoMadre" name="MaximoNivelEducativoMadre" value="Universitario incompleto">
+      <label class="form-check-label" for="UniversitarioIncompletoMadre">Universitario incompleto</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="UniversitarioCompletoMadre" name="MaximoNivelEducativoMadre" value="Universitario completo">
+      <label class="form-check-label" for="UniversitarioCompletoMadre">Universitario completo</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="NoSabeNoContestaMadre" name="MaximoNivelEducativoMadre" value="No Sabe/No Contesta">
+      <label class="form-check-label" for="NoSabeNoContestaMadre">No Sabe/No Contesta</label>
+  </div>
+</div>
+<h3>TRAYECTORIA OCUPACIONAL</h3>
+<div class="form-group">
+    <label>¿Trabaja actualmente?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="Trabaja" id="TrabajaSi" value="SI">
+        <label class="form-check-label" for="TrabajaSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="Trabaja" id="TrabajaNo" value="NO">
+        <label class="form-check-label" for="TrabajaNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="SectorTrabajo">Sector de Trabajo:</label><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorEducacion" value="Educación">
+        <label class="form-check-label" for="SectorEducacion">Educación</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorGobierno" value="Gobierno Sector Público">
+        <label class="form-check-label" for="SectorGobierno">Gobierno Sector Público</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorFinanciero" value="Servicio Financiero">
+        <label class="form-check-label" for="SectorFinanciero">Servicio Financiero</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorTurismo" value="Turismo">
+        <label class="form-check-label" for="SectorTurismo">Turismo</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorAgropecuario" value="Sector Agropecuario">
+        <label class="form-check-label" for="SectorAgropecuario">Sector Agropecuario</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorComercio" value="Comercio">
+        <label class="form-check-label" for="SectorComercio">Comercio</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorEmpresa" value="Empresa">
+        <label class="form-check-label" for="SectorEmpresa">Empresa</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorServicios" value="Servicios">
+        <label class="form-check-label" for="SectorServicios">Servicios</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorTransporte" value="Transporte">
+        <label class="form-check-label" for="SectorTransporte">Transporte</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorIndependiente" value="Profesional Independiente">
+        <label class="form-check-label" for="SectorIndependiente">Profesional Independiente</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorManufacturera" value="Industria Manufacturera">
+        <label class="form-check-label" for="SectorManufacturera">Industria Manufacturera</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorEnergia" value="Energía">
+        <label class="form-check-label" for="SectorEnergia">Energía</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorSalud" value="Salud">
+        <label class="form-check-label" for="SectorSalud">Salud</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorFuerzasArmadas" value="Fuerzas Armadas / Seguridad">
+        <label class="form-check-label" for="SectorFuerzasArmadas">Fuerzas Armadas / Seguridad</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="SectorOtro" value="Otro">
+        <label class="form-check-label" for="SectorOtro">Otro</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="OtroSectorTrabajo">Especificar otro sector:</label>
+    <input type="text" class="form-control" id="OtroSectorTrabajo">
+</div>
+<div class="form-group">
+  <label for="HorasTrabajoDiario">Horas de Trabajo Diario:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="Horas1a3" name="HorasTrabajoDiario" value="1-3">
+      <label class="form-check-label" for="Horas1a3">1 a 3 horas</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="Horas4a8" name="HorasTrabajoDiario" value="4-8">
+      <label class="form-check-label" for="Horas4a8">4 a 8 horas</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="HorasMasDe8" name="HorasTrabajoDiario" value="Más de 8">
+      <label class="form-check-label" for="HorasMasDe8">Más de 8 horas</label>
+  </div>
+</div>
+<div class="form-group">
+    <label>¿Es pensionado o jubilado?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="PensionadoJubilado" id="PensionadoJubiladoSi" value="SI">
+        <label class="form-check-label" for="PensionadoJubiladoSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="PensionadoJubilado" id="PensionadoJubiladoNo" value="NO">
+        <label class="form-check-label" for="PensionadoJubiladoNo">No</label>
+    </div>
+</div>
+                
+<h3>SITUACIÓN FAMILIAR</h3>
+<div class="form-group">
+    <label>¿Vive solo actualmente?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="ViveSolo" id="ViveSoloSi" value="SI">
+        <label class="form-check-label" for="ViveSoloSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="ViveSolo" id="ViveSoloNo" value="NO">
+        <label class="form-check-label" for="ViveSoloNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="ViveCon">Vive con:</label><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ViveConPadres" value="Con sus padres">
+        <label class="form-check-label" for="ViveConPadres">Con sus padres</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ViveConConyuge" value="Con su cónyuge o conviviente">
+        <label class="form-check-label" for="ViveConConyuge">Con su cónyuge o conviviente</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ViveConHijos" value="Con hijos">
+        <label class="form-check-label" for="ViveConHijos">Con hijos</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ViveConOtros" value="Otros">
+        <label class="form-check-label" for="ViveConOtros">Otros</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Tiene familiares a su cargo?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="FamiliaresACargo" id="FamiliaresACargoSi" value="SI">
+        <label class="form-check-label" for="FamiliaresACargoSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="FamiliaresACargo" id="FamiliaresACargoNo" value="NO">
+        <label class="form-check-label" for="FamiliaresACargoNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="ACargoDe">A cargo de:</label><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ACargoDePadres" value="Padres">
+        <label class="form-check-label" for="ACargoDePadres">Padres</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ACargoDeHijos" value="Hijos">
+        <label class="form-check-label" for="ACargoDeHijos">Hijos</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="ACargoDeOtros" value="Otros">
+        <label class="form-check-label" for="ACargoDeOtros">Otros</label>
+    </div>
+</div>
+    
+<h3>CONDICIÓN FRENTE A BECAS O PROGRAMAS</h3>
+<div class="form-group">
+    <label>¿Tiene alguna beca o programa?</label><br>
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="BecaProgramaNinguno" value="Ninguno" onclick="deshabilitarOpciones()">
+      <label class="form-check-label" for="BecaProgramaNinguno">Ninguno</label>
+  </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaEstimulos" value="Estímulos económicos (INFD)">
+        <label class="form-check-label" for="BecaProgramaEstimulos">Estímulos económicos (INFD)</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaBicentenario" value="Becas Bicentenario">
+        <label class="form-check-label" for="BecaProgramaBicentenario">Becas Bicentenario</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaPueblos" value="Pueblos originarios">
+        <label class="form-check-label" for="BecaProgramaPueblos">Pueblos originarios</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaProgresar" value="Progresar">
+        <label class="form-check-label" for="BecaProgramaProgresar">Progresar</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaAUH" value="AUH">
+        <label class="form-check-label" for="BecaProgramaAUH">AUH</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaCompromiso" value="Compromiso docente">
+        <label class="form-check-label" for="BecaProgramaCompromiso">Compromiso docente</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaEnvion" value="Programa Envión">
+        <label class="form-check-label" for="BecaProgramaEnvion">Programa Envión</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaArgentinaTrabaja" value="Argentina trabaja">
+        <label class="form-check-label" for="BecaProgramaArgentinaTrabaja">Argentina trabaja</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="BecaProgramaEllasHacen" value="Ellas hacen">
+        <label class="form-check-label" for="BecaProgramaEllasHacen">Ellas hacen</label>
+    </div>
+</div>
+    
+<h3>PRÁCTICAS CULTURALES O COTIDIANAS</h3>
+<div class="form-group">
+    <label>¿Escucha la radio?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="EscuchaRadio" id="EscuchaRadioSi" value="SI">
+        <label class="form-check-label" for="EscuchaRadioSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="EscuchaRadio" id="EscuchaRadioNo" value="NO">
+        <label class="form-check-label" for="EscuchaRadioNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Mira la televisión?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="MiraTelevision" id="MiraTelevisionSi" value="SI">
+        <label class="form-check-label" for="MiraTelevisionSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="MiraTelevision" id="MiraTelevisionNo" value="NO">
+        <label class="form-check-label" for="MiraTelevisionNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Asiste a obras de teatro?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="AsisteObrasTeatros" id="AsisteObrasTeatrosSi" value="SI">
+        <label class="form-check-label" for="AsisteObrasTeatrosSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="AsisteObrasTeatros" id="AsisteObrasTeatrosNo" value="NO">
+        <label class="form-check-label" for="AsisteObrasTeatrosNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Asiste a museos?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="AsisteMuseos" id="AsisteMuseosSi" value="SI">
+        <label class="form-check-label" for="AsisteMuseosSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="AsisteMuseos" id="AsisteMuseosNo" value="NO">
+        <label class="form-check-label" for="AsisteMuseosNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Asiste a conciertos?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="AsisteConciertos" id="AsisteConciertosSi" value="SI">
+        <label class="form-check-label" for="AsisteConciertosSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="AsisteConciertos" id="AsisteConciertosNo" value="NO">
+        <label class="form-check-label" for="AsisteConciertosNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Realiza lecturas frecuentes?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="LecturasFrecuentes" id="LecturasFrecuentesSi" value="SI">
+        <label class="form-check-label" for="LecturasFrecuentesSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="LecturasFrecuentes" id="LecturasFrecuentesNo" value="NO">
+        <label class="form-check-label" for="LecturasFrecuentesNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="TipoLecturaFrecuente">Tipo de lectura frecuente:</label><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="TipoLecturaFrecuenteDiarios" value="Diarios">
+        <label class="form-check-label" for="TipoLecturaFrecuenteDiarios">Diarios</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="TipoLecturaFrecuenteRevistas" value="Revistas">
+        <label class="form-check-label" for="TipoLecturaFrecuenteRevistas">Revistas</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="TipoLecturaFrecuenteLibros" value="Libros">
+        <label class="form-check-label" for="TipoLecturaFrecuenteLibros">Libros</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>¿Realiza lectura especializada?</label><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="LecturaEspecializada" value="Sí">
+        <label class="form-check-label" for="LecturaEspecializada">Sí</label>
+    </div>
+</div>
+<div class="form-group">
+    <label>Otras prácticas culturales:</label>
+    <input type="text" class="form-control" id="OtrasPracticasCulturales">
+</div>
+<div class="form-group">
+    <label>¿Usa Internet?</label><br>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="UsaInternet" id="UsaInternetSi" value="SI">
+        <label class="form-check-label" for="UsaInternetSi">Sí</label>
+    </div>
+    <div class="form-check form-check-inline">
+        <input class="form-check-input" type="radio" name="UsaInternet" id="UsaInternetNo" value="NO">
+        <label class="form-check-label" for="UsaInternetNo">No</label>
+    </div>
+</div>
+<div class="form-group">
+    <label for="DondeUsaInternet">¿Dónde utiliza Internet?</label><br>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="DondeUsaInternetHogar" value="Hogar">
+        <label class="form-check-label" for="DondeUsaInternetHogar">Hogar</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="DondeUsaInternetTrabajo" value="Lugar de trabajo">
+        <label class="form-check-label" for="DondeUsaInternetTrabajo">Lugar de trabajo</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="DondeUsaInternetEducacion" value="Ámbito educativo">
+        <label class="form-check-label" for="DondeUsaInternetEducacion">Ámbito educativo</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="DondeUsaInternetCelular" value="Celular">
+        <label class="form-check-label" for="DondeUsaInternetCelular">Celular</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="DondeUsaInternetCyber" value="Cyber">
+        <label class="form-check-label" for="DondeUsaInternetCyber">Cyber</label>
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" id="DondeUsaInternetOtro" value="Otro">
+        <label class="form-check-label" for="DondeUsaInternetOtro">Otro</label>
+    </div>
+</div>
+<div class="form-group">
+  <label>¿Usa redes sociales?</label><br>
+  <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="UsaRedesSociales" id="UsaRedesSocialesSi" value="SI">
+      <label class="form-check-label" for="UsaRedesSocialesSi">Sí</label>
+  </div>
+  <div class="form-check form-check-inline">
+      <input class="form-check-input" type="radio" name="UsaRedesSociales" id="UsaRedesSocialesNo" value="NO">
+      <label class="form-check-label" for="UsaRedesSocialesNo">No</label>
+  </div>
+</div>
+<div class="form-group">
+  <label>Redes Sociales que utiliza:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="RedesSocialesFacebook" name="RedesSociales" value="Facebook">
+      <label class="form-check-label" for="RedesSocialesFacebook">Facebook</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="RedesSocialesTwitter" name="RedesSociales" value="Twitter">
+      <label class="form-check-label" for="RedesSocialesTwitter">Twitter</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="RedesSocialesLinkedin" name="RedesSociales" value="Linkedin">
+      <label class="form-check-label" for="RedesSocialesLinkedin">Linkedin</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="RedesSocialesInstagram" name="RedesSociales" value="Instagram">
+      <label class="form-check-label" for="RedesSocialesInstagram">Instagram</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="RedesSocialesSnapchat" name="RedesSociales" value="Snapchat">
+      <label class="form-check-label" for="RedesSocialesSnapchat">Snapchat</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="RedesSocialesOtra" name="RedesSociales" value="Otra">
+      <label class="form-check-label" for="RedesSocialesOtra">Otra</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Sitios frecuentados:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="SitiosFrecuentadosCorreo" name="SitiosFrecuentados" value="Correo electrónico">
+      <label class="form-check-label" for="SitiosFrecuentadosCorreo">Correo electrónico</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="SitiosFrecuentadosBuscadores" name="SitiosFrecuentados" value="Buscadores">
+      <label class="form-check-label" for="SitiosFrecuentadosBuscadores">Buscadores</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="SitiosFrecuentadosReservorios" name="SitiosFrecuentados" value="Reservorios de información">
+      <label class="form-check-label" for="SitiosFrecuentadosReservorios">Reservorios de información</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="SitiosFrecuentadosDiarios" name="SitiosFrecuentados" value="Diarios y revistas">
+      <label class="form-check-label" for="SitiosFrecuentadosDiarios">Diarios y revistas</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="SitiosFrecuentadosPortalABC" name="SitiosFrecuentados" value="Portal ABC">
+      <label class="form-check-label" for="SitiosFrecuentadosPortalABC">Portal ABC</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="SitiosFrecuentadosOtros" name="SitiosFrecuentados" value="Otros">
+      <label class="form-check-label" for="SitiosFrecuentadosOtros">Otros</label>
+  </div>
+</div>
+<div class="form-group">
+  <label>Otros Sitios Frecuentados:</label>
+  <input type="text" class="form-control" name="OtrosSitiosFrecuentados" id="OtrosSitiosFrecuentados">
+</div>
+
+<div class="form-group">
+  <label>Participaciones:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="ParticipacionConsejoAcademico" name="Participaciones" value="Ha integrado el Consejo Académico Institucional">
+      <label class="form-check-label" for="ParticipacionConsejoAcademico">Ha integrado el Consejo Académico Institucional</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="ParticipacionConsejoAcademicoActual" name="Participaciones" value="Integra actualmente el Consejo Académico Institucional">
+      <label class="form-check-label" for="ParticipacionConsejoAcademicoActual">Integra actualmente el Consejo Académico Institucional</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="ParticipacionCentroEstudiantes" name="Participaciones" value="Formó parte del Centro de Estudiantes">
+      <label class="form-check-label" for="ParticipacionCentroEstudiantes">Formó parte del Centro de Estudiantes</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="ParticipacionCentroEstudiantesActual" name="Participaciones" value="Forma parte actualmente del Centro de Estudiantes">
+      <label class="form-check-label" for="ParticipacionCentroEstudiantesActual">Forma parte actualmente del Centro de Estudiantes</label>
+  </div>
+</div>
+<h3>FICHA DE SALUD - EN CASO DE EMERGENCIA</h3>
+<div class="form-group">
+  <label>Obra Social Prepaga:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="ObraSocialPrepagaSI" name="ObraSocialPrepaga" value="SI">
+      <label class="form-check-label" for="ObraSocialPrepagaSI">SI</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="ObraSocialPrepagaNO" name="ObraSocialPrepaga" value="NO">
+      <label class="form-check-label" for="ObraSocialPrepagaNO">NO</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Descripción de la Obra Social:</label>
+  <input type="text" class="form-control" name="DescripcionObraSocial" id="DescripcionObraSocial" disabled>
+</div>
+
+<div class="form-group">
+  <label>Tratamiento Médico:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="TratamientoMedicoSI" name="TratamientoMedico" value="SI">
+      <label class="form-check-label" for="TratamientoMedicoSI">SI</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="TratamientoMedicoNO" name="TratamientoMedico" value="NO">
+      <label class="form-check-label" for="TratamientoMedicoNO">NO</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Descripción del Tratamiento Médico:</label>
+  <input type="text" class="form-control" name="DescripcionTratamientoMedico" id="DescripcionTratamientoMedico" disabled>
+</div>
+
+<div class="form-group">
+  <label>Medicación:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="MedicacionSI" name="Medicacion" value="SI">
+      <label class="form-check-label" for="MedicacionSI">SI</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="MedicacionNO" name="Medicacion" value="NO">
+      <label class="form-check-label" for="MedicacionNO">NO</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Descripción de la Medicación:</label>
+  <input type="text" class="form-control" name="DescripcionMedicacion" id="DescripcionMedicacion" disabled>
+</div>
+
+<div class="form-group">
+  <label>Discapacidad:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="DiscapacidadSI" name="Discapacidad" value="SI">
+      <label class="form-check-label" for="DiscapacidadSI">SI</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="DiscapacidadNO" name="Discapacidad" value="NO">
+      <label class="form-check-label" for="DiscapacidadNO">NO</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Descripción de la Discapacidad:</label>
+  <input type="text" class="form-control" name="DescripcionDiscapacidad" id="DescripcionDiscapacidad" disabled>
+</div>
+
+<div class="form-group">
+  <label>Estado de la Discapacidad:</label>
+  <select class="form-control" name="EstadoDiscapacidad" id="EstadoDiscapacidad" disabled>
+      <option value="Permanente">Permanente</option>
+      <option value="Transitoria">Transitoria</option>
+  </select>
+</div>
+
+<div class="form-group">
+  <label>Certificado:</label><br>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="CertificadoSI" name="Certificado" value="SI">
+      <label class="form-check-label" for="CertificadoSI">SI</label>
+  </div>
+  <div class="form-check">
+      <input class="form-check-input" type="radio" id="CertificadoNO" name="Certificado" value="NO">
+      <label class="form-check-label" for="CertificadoNO">NO</label>
+  </div>
+</div>
+
+<div class="form-group">
+  <label>Contacto en Caso de Emergencia:</label>
+  <input type="text" class="form-control" name="ContactoEmergencia" id="ContactoEmergencia">
+</div>
+
+<div class="form-group">
+  <label>Teléfono de Contacto:</label>
+  <input type="text" class="form-control" name="TelefonoContacto" id="TelefonoContacto">
+</div>
+                
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="site-section courses-title bg-dark" id="courses-section">
+      <div class="container">
+        <div class="row mb-5 justify-content-center">
+          <div class="col-lg-7 text-center" data-aos="fade-up" data-aos-delay>
+            <h2 class="section-title">Otras carreras</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="site-section courses-entry-wrap" data-aos="fade-up" data-aos-delay="100">
+      <div class="container">
+        <div class="row">
+          <div class="owl-carousel col-12 nonloop-block-14">
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/turismo.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+
+                <div class="meta"><span class="icon-clock-o"></span>3 Años</div>
+                <h3><a href="index.html#">Guía de turismo</a></h3>
+                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="enfermeria.html"><img src="images/enfermeria.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+
+                <div class="meta"><span class="icon-clock-o"></span>3 Años</div>
+                <h3><a href="index.html#">Tecnicatura enfermería</a></h3>
+                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/contable.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+
+                <div class="meta"><span class="icon-clock-o"></span>3 Años</div>
+                <h3><a href="index.html#">Administración contable</a></h3>
+                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="marketing.html"><img src="images/marketing.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+
+                <div class="meta"><span class="icon-clock-o"></span>3 Años</div>
+                <h3><a href="index.html#">Administración marketing</a></h3>
+                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="programacion.html"><img src="images/programacion.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+
+                <div class="meta"><span class="icon-clock-o"></span>3 Años</div>
+                <h3><a href="index.html#">Analista programador</a></h3>
+                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+            <div class="course bg-white h-100 align-self-stretch">
+              <figure class="m-0">
+                <a href="course-single.html"><img src="images/publica.jpg" alt="Image" class="img-fluid"></a>
+              </figure>
+              <div class="course-inner-text py-4 px-4">
+
+                <div class="meta"><span class="icon-clock-o"></span>3 Años</div>
+                <h3><a href="index.html#">Administración pública</a></h3>
+                <p>Lorem ipsum dolor sit amet ipsa nulla adipisicing elit. </p>
+              </div>
+              <div class="d-flex border-top stats">
+                <div class="py-3 px-4"><span class="icon-users"></span> 2,193 students</div>
+                <div class="py-3 px-4 w-25 ml-auto border-left"><span class="icon-chat"></span> 2</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-7 text-center">
+            <button class="customPrevBtn btn btn-primary m-1">Anterior</button>
+            <button class="customNextBtn btn btn-primary m-1">Siguiente</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer-section bg-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h3>Horarios</h3>
+            <p>De lunes a viernes de 18:30 a 22:30 hs.</p>
+            <h3>Teléfonos</h3>
+            <p>(02225) 481175 / (02225) 484015</p>
+          </div>
+          <div class="col-md-3 ml-auto">
+            <h3>Links</h3>
+            <ul class="list-unstyled footer-links">
+              <li><a href="institutosuperior93@gmail.com">Email</a></li>
+              <li><a href="http://www.facebook.com/ISFDYT93SV">Facebook</a></li>
+              <li><a href="https://twitter.com/is93sanvi">Twitter</a></li>
+              <li><a href="https://instagram.com/institutosuperiors93sv">Instagram</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h3>Ubicación</h3>
+            
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1633.6328807670366!2d-58.42739765557251!3d-35.02508079999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bd2c53aefcbec1%3A0x391483c1d5e02671!2sInstituto%20Superior%20de%20Formaci%C3%B3n%20Docente%20y%20T%C3%A9cnica%20N%C2%BA%2093%20Arturo%20Umberto%20Illia!5e0!3m2!1ses-419!2sar!4v1698589158533!5m2!1ses-419!2sar"
+              width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p>
+
+                Copyright &copy;
+                <script>document.write(new Date().getFullYear());</script> All rights reserved | powered by <a href="#"
+                  target="_blank">Turtle Design</a>
+
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script>
+    function deshabilitarOpciones() {
+        const ningunoCheckbox = document.getElementById("BecaProgramaNinguno");
+        const otrasOpciones = document.querySelectorAll('input[type="checkbox"]:not(#BecaProgramaNinguno)');
+        for (const opcion of otrasOpciones) {
+            opcion.disabled = ningunoCheckbox.checked;
+        }
+        
+    };
+    document.addEventListener('DOMContentLoaded', function () {
+        // Obtén los elementos relevantes
+        const usaRedesSocialesSi = document.getElementById("UsaRedesSocialesSi");
+        const redesSocialesCheckboxes = document.querySelectorAll('input[name="RedesSociales"]');
+        const formulario = document.querySelector('form');
+
+        // Agrega un controlador de eventos para el envío del formulario
+        formulario.addEventListener('submit', function (event) {
+            if (usaRedesSocialesSi.checked) {
+                // Al menos una opción de redes sociales debe estar marcada
+                const alMenosUnaSeleccionada = [...redesSocialesCheckboxes].some(cb => cb.checked);
+                if (!alMenosUnaSeleccionada) {
+                    event.preventDefault(); // Detener el envío del formulario
+                    alert('Debe seleccionar al menos una red social si usa redes sociales.');
+                }
+            }
+        });
+    });
+    </script>
+  <script src="js/jquery-3.3.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/jquery-ui.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/jquery.countdown.min.js"></script>
+  <script src="js/bootstrap-datepicker.min.js"></script>
+  <script src="js/jquery.easing.1.3.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.sticky.js"></script>
+  <script src="js/main.js"></script>
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-23581568-13');
+  </script>
+  <script defer src="https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317"
+    integrity="sha512-euoFGowhlaLqXsPWQ48qSkBSCFs3DPRyiwVu3FjR96cMPx+Fr+gpWRhIafcHwqwCqWS42RZhIudOvEI+Ckf6MA=="
+    data-cf-beacon='{"rayId":"81b1b9fb8a00ab2b","b":1,"version":"2023.10.0","token":"cd0b4b3a733644fc843ef0b185f98241"}'
+    crossorigin="anonymous"></script>
+    
+
+
+   
+</body>
+
+</html>
